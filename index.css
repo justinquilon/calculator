@@ -20,12 +20,15 @@ body {
 
 .display {
 	display: flex;
-	justify-content: space-around;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
 	margin: 5px;
 	padding: 5px;
 	width: 344px;
 	height: 83.5px;
-	font-size: 4em;
+	font-size: 3.9em;
+	font-weight: initial;
 	border: 1px solid black;
 	background-color: #ffe8c8;
 }
